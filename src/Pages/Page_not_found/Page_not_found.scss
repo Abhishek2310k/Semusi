@@ -1,0 +1,23 @@
+.page_not_found{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    gap: 20px;
+    align-items: center;
+    h1{
+        color: #002d62;
+    }
+    button{
+        padding: 10px;
+        background-color: #002d62;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    button:hover{
+        background-color: white;
+        color: #002d62;
+    }
+}

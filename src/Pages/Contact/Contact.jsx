@@ -3,6 +3,7 @@ import './Contact.scss';
 import { useParams } from 'react-router-dom';
 import { auth } from '../../firebase';
 import { onAuthStateChanged } from 'firebase/auth';
+import { Link } from 'react-router-dom';
 
 const Contact = ({ data }) => {
   let { id } = useParams();
@@ -52,6 +53,10 @@ const Contact = ({ data }) => {
       {authUser === null ? (
         <div className='request_login'>
           <h1> Please Login Or Register For Sending Messages</h1>
+          <div className='buttons'>
+          <Link to="/login"><button>Login</button></Link>
+          <Link to="/signup"><button>Signup</button></Link>
+          </div>
         </div>
       ) : (
         <div className='contact'>

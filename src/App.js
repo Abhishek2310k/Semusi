@@ -11,6 +11,7 @@ import Product from './Pages/Product/Product';
 import Contact from "./Pages/Contact/Contact";
 import Login from "./Components/Auth/Login/Login";
 import Signup from "./Components/Auth/Signup/Signup";
+import Page_not_found from "./Pages/Page_not_found/Page_not_found";
 const Layout = () =>{
   return (
     <div className="app">
@@ -108,6 +109,10 @@ const router = createBrowserRouter([
         path:"signup",
         element:<Signup/>
       },
+      {
+        path:"*",
+        element:<Page_not_found/>
+      }
     ]
   },
 ]);
