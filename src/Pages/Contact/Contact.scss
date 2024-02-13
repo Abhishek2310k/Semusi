@@ -1,0 +1,80 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width: 80%;
+    // margin-left: 10%;
+    background-image: url("https://media.istockphoto.com/id/914866916/photo/community-of-likeminded-young-people.jpg?s=1024x1024&w=is&k=20&c=ZKeVn403QD7Kihf-ly1KBIkV0H7UHYnxc5parqjecRY=");
+    padding-bottom: 50px;
+    background-size: cover;
+    h1{
+        color: #6699cc;
+    }
+    form{
+        label{
+            cursor: pointer;
+        }
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 0.5rem;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgba(0,0,0,0.5);
+        backdrop-filter: blur(8px);
+        .item{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: white;
+        }
+        input{
+            padding: 10px;
+            border: 1px solid rgba(0,0,0,0.8);
+            border-radius: 0.5rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            background-color: transparent;
+            border:none;
+        }
+        input:focus {
+            outline-width: 0;
+        }
+        textarea{
+            height: 300px;
+            padding: 10px;
+            border:none;
+            border-radius: 0.5rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            background-color: transparent;
+        }
+        textarea:focus {
+            outline-width: 0;
+        }
+        button{
+            margin-top: 20px;
+            border: none;
+            border-radius: 0.5rem;
+            background-color: #002d62;
+            color: white;
+            padding:10px;
+            width: 30%;
+            margin-left: 35%;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        button:hover{
+            color: #002d62;
+            background-color: transparent;
+        }
+    }
+}
+@media screen and (max-width:697px) {
+    .contact {
+        form{
+            width: 65%;
+        }
+    }
+}

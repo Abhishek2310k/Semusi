@@ -1,0 +1,46 @@
+.footer {
+    .content {
+    display: flex;
+    border: 1px solid gray;
+    justify-content: start;
+    align-items: center;
+    background-color: #002D62;
+    color: white;
+    padding: 20px;
+    flex-direction: column;
+    .madeby{
+        .socials{
+            display: flex;
+            gap: 10px;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+}
+@media screen and (max-width:605px) {
+    .footer{
+        .content{
+        flex-direction: column;
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        .madeby{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            size: 20;
+            a {
+                svg {
+                  width: 20px; // Decrease the size of icons for smaller screens
+                }
+              }
+        }
+    }
+    }
+}

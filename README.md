@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+Project name Semsui
+Project ID :- 
+semsui-326df
+Project number :- 
+478615516512
+Default GCP resource location 
+Not yet selected
+Parent org/folder in GCP :- 
+iitbhilai.ac.in
+Web API Key :- 
+AIzaSyB7CpZl8DF9EN9Hq5Lt4B-vH7fCuE6gZIs
