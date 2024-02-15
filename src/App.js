@@ -43,7 +43,7 @@ const data = [
   },
   {
     id:3,
-    src: ['https://imgs.search.brave.com/QPwLPEwNxY3VxbDqfWCFlkmi0fegZ6XLhx9bgDoMFR8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93ZWVr/ZW5kbGVhdmUuY29t/L2luL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzA3L3J1cGFs/aS1nYW5ndWx5Lmpw/Zw',""],
+    src: ['https://imgs.search.brave.com/N4nZSnI0ZelAp06DE17oj6woOIhV3VrnjAqkThnXvvI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bXJkdXN0YmluLmNv/bS9lbi93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8xMS9FbW1h/LVdhdHNvbi04NjR4/MTAyNC5qcGc',""],
     alt: 'Pragya',
     address: '95 North Peg Shop Dr. Allison Park, PA 15101',
     rooms: '1',

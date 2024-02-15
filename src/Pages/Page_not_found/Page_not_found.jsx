@@ -1,6 +1,5 @@
 import React from 'react'
 import './Page_not_found.scss'
-import { Link } from 'react-router-dom'
 import MatrixParallax from "react-matrix-parallax";
 const Page_not_found = () => {
   return (
